@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+⏰ Pomodoro Focus App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Pomodoro Focus App, odaklanmayı artırmak ve çalışma verimini yükseltmek için geliştirilmiş basit ama işlevsel bir zaman yönetimi uygulamasıdır.
+Klasik Pomodoro tekniğini temel alarak ders, mola ve istatistik takibini tek bir yerde sunar.
 
-## Get started
+🚀 Özellikler
 
-1. Install dependencies
+📚 Pomodoro Ekranı:
+Çalışma sürelerini başlat, durdur ve sıfırla. Ders boyunca ne kadar odaklandığını takip et.
 
-   ```bash
-   npm install
-   ```
+☕ Mola Ekranı:
+Çalışma süresi dolduğunda otomatik olarak mola süresine geç. Dinlenme sürelerini verimli şekilde yönet.
 
-2. Start the app
+📊 İstatistik Ekranı:
+Günlük veya toplam çalışma sürelerini görüntüle. Ne kadar verimli çalıştığını takip et.
 
-   ```bash
-   npx expo start
-   ```
+⚙️ Ayarlar Ekranı:
+Pomodoro, kısa mola ve uzun mola sürelerini kendi isteğine göre ayarla. Uygulamayı tamamen kişiselleştir.
 
-In the output, you'll find options to open the app in a
+🧩 Kullanılan Teknolojiler
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+React Native
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+TypeScript
 
-## Get a fresh project
+React Navigation
 
-When you're ready, run:
+Context API (Auth, History, Settings)
 
-```bash
-npm run reset-project
-```
+Firebase (Authentication ve veri saklama)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🎯 Amaç
 
-## Learn more
+Bu uygulamanın amacı, kullanıcıların odak süresini artırmak, çalışma alışkanlıklarını düzenlemek ve üretkenliği sürdürülebilir hale getirmektir.
 
-To learn more about developing your project with Expo, look at the following resources:
+📱 Ekranlar
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Pomodoro (ders) ekranı
 
-## Join the community
+Mola ekranı
 
-Join our community of developers creating universal apps.
+# 1. Depoyu klonla
+git clone https://github.com/kullaniciadi/pomodoro-app.git
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# 2. Proje dizinine gir
+cd pomodoro-app
+
+# 3. Gerekli bağımlılıkları yükle
+npm install
+
+# 4. Uygulamayı başlat
+npx expo start
+
+🧠 Geliştirici Notu
+
+Bu proje, React Native öğrenme sürecimde geliştirdiğim bir uygulamadır.
+Zaman yönetimi konusunda kendini geliştirmek isteyen herkes için açık kaynak olarak paylaşılmıştır
+İstatistik ekranı
+
+Ayarlar ekranı
